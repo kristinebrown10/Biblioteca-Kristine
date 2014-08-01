@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="645b4c38-98ee-496c-acd7-882561dcd851" name="Default" comment="Checked out book does not appear in list of books, so checkout user story complete">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/src/com/twu/Biblio.java" afterPath="$PROJECT_DIR$/Biblioteca/src/twu/Biblio.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/src/com/twu/Book.java" afterPath="$PROJECT_DIR$/Biblioteca/src/twu/Book.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/src/com/twu/InputHandler.java" afterPath="$PROJECT_DIR$/Biblioteca/src/twu/InputHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/src/com/twu/LibraryDriver.java" afterPath="$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/src/com/twu/Main.java" afterPath="$PROJECT_DIR$/Biblioteca/src/twu/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/tests/com/twu/BiblioTests.java" afterPath="$PROJECT_DIR$/Biblioteca/tests/BiblioTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/tests/com/twu/InputHandlerTests.java" afterPath="$PROJECT_DIR$/Biblioteca/tests/InputHandlerTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/tests/com/twu/LibraryDriverTest.java" afterPath="$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Biblioteca.iml" afterPath="$PROJECT_DIR$/Biblioteca.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="645b4c38-98ee-496c-acd7-882561dcd851" name="Default" comment="Successful book checkout user story complete">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java" afterPath="$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java" afterPath="$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Biblioteca/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Biblioteca/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Biblioteca/Biblio/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Biblioteca/Biblio/.idea/workspace.xml" />
     </list>
     <ignored path="Biblioteca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/Biblio.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="960">
-              <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+              <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -54,7 +40,7 @@
       <file leaf-file-name="BiblioTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Biblioteca/tests/BiblioTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="1245">
+            <state vertical-scroll-proportion="0.0" vertical-offset="710" max-vertical-offset="1245">
               <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,9 +62,11 @@
       <file leaf-file-name="LibraryDriverTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="930">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1200">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryDriver.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LibraryDriver.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="840">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.08982036" vertical-offset="0" max-vertical-offset="810">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,22 +94,12 @@
       <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="600">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="600">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#718#719#0" expanded="true" />
                 <element signature="e#753#754#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/InputHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3451883" vertical-offset="0" max-vertical-offset="525">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,10 +128,10 @@
         <option value="$PROJECT_DIR$/Biblioteca/tests/InputHandlerTests.java" />
         <option value="$PROJECT_DIR$/Biblioteca/src/twu/Biblio.java" />
         <option value="$PROJECT_DIR$/Biblioteca/src/twu/Book.java" />
-        <option value="$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java" />
-        <option value="$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java" />
         <option value="$PROJECT_DIR$/Biblioteca/tests/BiblioTests.java" />
         <option value="$PROJECT_DIR$/Biblioteca/src/twu/InputHandler.java" />
+        <option value="$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java" />
+        <option value="$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java" />
       </list>
     </option>
   </component>
@@ -312,7 +290,7 @@
       <recent name="src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Biblioteca">
+  <component name="RunManager" selected="JUnit.LibraryDriverTest">
     <configuration default="false" name="InputHandlerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Biblioteca" />
@@ -654,9 +632,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Biblioteca" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryDriverTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryDriverTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Biblioteca" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.InputHandlerTests" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryDriverTest.shouldPrintSomethingWhenListbooksCalledWithOneBook" />
       </list>
@@ -678,12 +656,17 @@
       <workItem from="1406652598533" duration="741000" />
       <workItem from="1406903055999" duration="71000" />
       <workItem from="1406904499980" duration="397000" />
-      <workItem from="1406904904480" duration="4571000" />
+      <workItem from="1406904904480" duration="4982000" />
     </task>
+    <task id="LOCAL-00001" summary="Checked out book does not appear in list of books, so checkout user story complete">
+      <created>1406910152632</created>
+      <updated>1406910152632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5780000" />
+    <option name="totallyTimeSpent" value="6191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1400" height="851" extended-state="0" />
@@ -733,7 +716,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Checked out book does not appear in list of books, so checkout user story complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checked out book does not appear in list of books, so checkout user story complete" />
+    <MESSAGE value="Successful book checkout user story complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successful book checkout user story complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -747,14 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/Biblio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="960">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -783,19 +759,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java">
+    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/InputHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="840">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.50209206" vertical-offset="0" max-vertical-offset="525">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java">
+    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="930">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="600">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,21 +788,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/Book.java">
+    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/Biblio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="600">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="960">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteca/tests/LibraryDriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1200">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/InputHandler.java">
+    <entry file="file://$PROJECT_DIR$/Biblioteca/src/twu/LibraryDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3451883" vertical-offset="0" max-vertical-offset="525">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.08982036" vertical-offset="0" max-vertical-offset="810">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
